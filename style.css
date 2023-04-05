@@ -1,0 +1,96 @@
+body{
+  background-color: white;
+}
+
+.button3 {
+    background-color: black; 
+    color: 
+    #0ad0ad; 
+    border: 1px solid 
+    #0ad0ad;
+
+  }
+  
+  .button3:hover {
+    background-color: 
+    #0ad0ad;
+    color: black;
+   
+}
+
+.button4 {
+    background-color: #0ad0ad;
+    color: black;
+    border: 1px solid #0ad0ad;
+  }
+  
+  .button4:hover {
+    background-color: #09b494;
+    color: black;
+}
+
+.navbar{
+  height: 62px;
+}
+.fa {
+  font-size: 30px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  bottom: 26px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: black;
+  padding-left: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color: grey; color: white;}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #2980B9;
+}
