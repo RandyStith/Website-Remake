@@ -58,15 +58,16 @@ body{
 
 
 .dropbtn {
-  background-color: #3498DB;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 16px;
-  border: none;
+  border: 2px black solid;
 }
 
 .dropup {
   position: relative;
   display: inline-block;
+  max-height: 100px;
 }
 
 .dropup-content {
@@ -74,8 +75,9 @@ body{
   position: absolute;
   background-color: white;
   min-width: 160px;
-  bottom: 26px;
+  bottom: 28px;
   z-index: 1;
+  border: 2px black solid;
 }
 
 .dropup-content a {
@@ -83,6 +85,7 @@ body{
   padding-left: 20px;
   text-decoration: none;
   display: block;
+  border: 1px black solid;
 }
 
 .dropup-content a:hover {background-color: grey; color: white;}
