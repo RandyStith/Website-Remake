@@ -60,7 +60,7 @@ body{
 .dropbtn {
   background-color: white;
   color: black;
-  font-size: 16px;
+  font-size: 1.6vw;
   border: 2px black solid;
 }
 
@@ -101,4 +101,14 @@ body{
   width: 110%;
   max-width: 12000px;
   height: auto;
+}
+
+.button6 {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.button6:hover {
+  background-color: white;
+  color: black;
 }
